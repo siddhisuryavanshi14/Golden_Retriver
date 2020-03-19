@@ -1,0 +1,54 @@
+header {
+	background-color : black;
+	text-align: center;
+	font-size: 3em;
+	font-family: CommercialScript BT,Satisfy, cursive;	
+	color:white;
+}
+main,footer {
+	font-size: 1.5em;
+	box-sizing: border-box;
+    	padding: 0 8em;
+}
+ul,h2,footer{
+	text-align:center;
+}
+mark {
+    background-color: yellow;
+    color: black;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.home #menu mark a {
+    background: #000;
+    color: #fff;
+}
+.home #menu a {
+    border-radius: 5px;
+}
+#menu a {
+    line-height: 2em;
+    padding: 0 1em;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+nav ul {
+    background: #fff;
+    background-color: rgba(255, 255, 255, .95);
+    color: #000;
+    border-top: 1px solid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.home #menu ul {
+    width: auto;
+}
+#menu ul {
+    background: transparent;
+    border: 0;
+}
